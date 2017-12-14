@@ -1,0 +1,5 @@
+services:
+- movie-fun-sso
+- name: album-service
+  env:
+    GRANT_TYPE: client_credentials
